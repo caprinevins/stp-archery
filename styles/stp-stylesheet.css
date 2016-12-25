@@ -4,16 +4,39 @@ img {
   margin: 5px;
 }
 
-img hover {
-  
+.logo {
+    height: 200px;
+  padding: 5px;
+  margin: 5px;
 }
-li {
-  display:inline;
-  color:aliceblue;
-  background-color: darkblue;
-  border-style: solid;
-  font-family: sans-serif;
+
+.title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 5em;
+}
+
+.navbar {
+  background-color: grey;
+}
+
+nav {
+  display: inline-block;
   font-size: 2em;
+  width: auto;
+}
+
+li:hover {
+    background-color:darkmagenta;
+}
+
+li {
+  display:inline-block;
+  text-align: center;
+  color:black;
+  font-family: sans-serif;
+  font-size: 1em;
+  margin: 2em;
+  padding: 1rem;
 }
 
 h1 {
@@ -41,6 +64,13 @@ p {
   margin: 5px;
 }
 
+p:nth-child(odd) {
+  font-family: 'Josefin-Sans', sans-serif;
+}
+
+p:nth-child(even) {
+  font-style: italic;
+}
 
 /*  SECTIONS  */
 .section {
